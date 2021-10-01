@@ -1,4 +1,4 @@
-// js for toggle menu
+
 var MenuItems = document.getElementById('MenuItems');
 MenuItems.style.maxHeight = '0px';
 
@@ -11,7 +11,7 @@ function menutoggle() {
     }
 }
 
-// js for product gallery
+
 
 var ProductImg = document.getElementById('ProductImg');
 var SmallImg = document.getElementsByClassName('small-img');
@@ -28,7 +28,6 @@ SmallImg[3].onclick = function () {
     ProductImg.src = SmallImg[3].src;
 }
 
-// js for toggle form
 var LoginForm = document.getElementById("LoginForm");
 var RegForm = document.getElementById("RegForm");
 var Indicator = document.getElementById("Indicator");
